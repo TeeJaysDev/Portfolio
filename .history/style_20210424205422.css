@@ -47,10 +47,7 @@ nav a {
     margin-left: 4rem;
 }
 
-.box .imageh2 {
-
-    justify-items: center;
-}
+box
 
 #skills {
     display: grid;
@@ -69,7 +66,6 @@ h1 {
     flex-wrap: wrap;
     align-items: flex-start;
     margin: 4rem 20rem 1rem 1rem;
-    font-size: 2rem;
 }
 
 .text {
@@ -80,8 +76,7 @@ h1 {
 .text li {
     list-style: none;
     margin: 1rem;
-    color: #000000;
-    font-weight: bold;
+    color: #fff;
     font-size: 1.2rem;
     text-align: center;
     align-items: center;

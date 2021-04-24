@@ -43,20 +43,13 @@ nav a {
 }
 
 .welcome_part_h2 {
-    margin-bottom: 18rem;
+    margin-bottom: 13rem;
     margin-left: 4rem;
-}
-
-.box .imageh2 {
-
-    justify-items: center;
 }
 
 #skills {
     display: grid;
-    align-items: flex-end;
-    grid-template-columns: repeat(auto-fit, 400px);
-    margin-left: 4.5rem;
+    grid-template-columns: repeat(4, 200px)
 }
 
 h1 {
@@ -69,7 +62,6 @@ h1 {
     flex-wrap: wrap;
     align-items: flex-start;
     margin: 4rem 20rem 1rem 1rem;
-    font-size: 2rem;
 }
 
 .text {
@@ -80,17 +72,15 @@ h1 {
 .text li {
     list-style: none;
     margin: 1rem;
-    color: #000000;
-    font-weight: bold;
-    font-size: 1.2rem;
+    color: #fff;
+    padding-top: 1rem;
     text-align: center;
     align-items: center;
     border-radius: 1rem;
-    margin: 0.3125rem 0.3125rem;
-    width: 7rem;
-    background-image: linear-gradient(147deg,#4bffa5,#54d4ff 90%);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    margin: 5px 10px;
+    width: 6rem;
+    background-image: linear-gradient(147deg,#00FF7F,#00BFFF 90%);
+    padding-bottom: 25px;
 }
 
 #about p {
