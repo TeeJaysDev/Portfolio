@@ -175,7 +175,7 @@ body .error {
 /* Smartphone (portrait) --- */
 
 @media only screen
-and (min-width: 200px)
+and (min-width: px)
 and (max-width: 767px) {
     
     nav {
