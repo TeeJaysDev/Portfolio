@@ -31,7 +31,6 @@ header h1 strong {
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-    -webkit-text-stroke: 1.5px black;
 }
 
 .welcome_part_h1 {
@@ -52,27 +51,33 @@ header h1 strong {
     min-width: 18ch;
 }
 
-.welcome_part_p {
+.welcome_part_h2 {
     margin-bottom: 18rem;
     margin-left: 4rem;
-    font-size: 2.5rem;
 }
 
 .box .image_h2 {
+
     justify-items: center;
 }
 
 #skills {
     display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, 400px);
-    margin-left: 4.5rem;
+    align-items: flex-end;
+    grid-template-columns: repeat(4, 1fr);
 }
 
-main h1 {
+#skills:nth-child(odd) {
+    grid-column: 1
+} 
+
+#skills:nth-child(even) {
+    grid-column: 2;
+}
+
+h1 {
     font-size: 5rem;
     margin-left: 10rem;
-    margin-top: 10rem;
 }
 
 .image_h2 {
@@ -192,35 +197,35 @@ and (max-width: 767px) {
         font-size: 1rem;
     }
     
-    .welcome_part_h1 {
+     main .welcome_part_h1 {
         font-family: monospace;
-        font-size: 1.875rem;
+        font-size: 2.5rem;
         margin-top: 9rem;
         margin-left: 1rem;
     }
     
-    .welcome_part {
+    main .welcome_part {
         margin-top: 1rem;
         margin-left: 2rem;
         margin-bottom: 2rem;
-        font-size: 2.5rem;
+        font-size: 1.63rem;
         min-width: 18ch;
     }
     
-    .welcome_part_p {
+    main .welcome_part_h2 {
         margin-bottom: 10rem;
         margin-left: 2rem;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
-    main h1 {
-        margin-left: 3rem;
-        font-size: 4rem;
+    section h1 {
+        font-size: 3rem;
+        margin-bottom: 1.563rem;
     }
     
     #about p {
         font-size: 1.25rem;
-        max-width: 35ch;
+        max-width: 22ch;
         margin-left: 2rem;
         margin-bottom: 5rem;
     }
@@ -275,7 +280,7 @@ and (orientation: portrait) {
         font-size: 1.563rem;
     }
     
-    .welcome_part_h1 {
+     main .welcome_part_h1 {
         font-family: monospace;
         font-size: 3.75rem;
         margin-top: 13rem;
@@ -283,7 +288,7 @@ and (orientation: portrait) {
         margin-bottom: 0rem;
     }
     
-    .welcome_part {
+    main .welcome_part {
         margin-top: 2rem;
         margin-left: 5rem;
         margin-bottom: 2rem;
@@ -293,7 +298,7 @@ and (orientation: portrait) {
         min-width: 18ch;
     }
     
-    .welcome_part_p {
+    main .welcome_part_h2 {
         margin-bottom: 20rem;
         margin-left: 4rem;
     }
@@ -383,7 +388,7 @@ and (max-width: 1230) {
 @media only screen
 and (min-width: 550px)
 and (max-width: 700px) {
-    .welcome_part_h1 {
+    main .welcome_part_h1 {
         font-family: monospace;
         font-size: 3.75rem;
         margin-top: 13rem;
@@ -391,14 +396,14 @@ and (max-width: 700px) {
         margin-bottom: 0rem;
     }
     
-    .welcome_part {
+    main .welcome_part {
         margin-top: 2rem;
         margin-left: 5rem;
         margin-bottom: 2rem;
         font-size: 2.6rem;
     }
     
-    .welcome_part_p {
+    main .welcome_part_h2 {
         margin-bottom: 20rem;
         margin-left: 4rem;
     }
@@ -406,7 +411,7 @@ and (max-width: 700px) {
 
 @media only screen
 and (min-width: 1920px) {
-    .welcome_part_h1 {
+    main .welcome_part_h1 {
         font-family: monospace;
         font-size: 3.75rem;
         margin-top: 13rem;
@@ -414,14 +419,14 @@ and (min-width: 1920px) {
         margin-bottom: 0rem;
     }
     
-    .welcome_part {
+    main .welcome_part {
         margin-top: 2rem;
         margin-left: 5rem;
         margin-bottom: 2rem;
         font-size: 5rem;
     }
     
-    .welcome_part_p {
+    main .welcome_part_h2 {
         margin-bottom: 20rem;
         margin-left: 4rem;
         font-size: 2.5rem;

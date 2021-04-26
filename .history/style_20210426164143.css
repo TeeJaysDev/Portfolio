@@ -220,7 +220,7 @@ and (max-width: 767px) {
     
     #about p {
         font-size: 1.25rem;
-        max-width: 35ch;
+        max-width: 40ch;
         margin-left: 2rem;
         margin-bottom: 5rem;
     }

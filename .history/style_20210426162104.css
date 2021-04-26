@@ -31,7 +31,7 @@ header h1 strong {
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-    -webkit-text-stroke: 1.5px black;
+    -webkit-text-stroke: 0.5px black;
 }
 
 .welcome_part_h1 {
@@ -55,10 +55,11 @@ header h1 strong {
 .welcome_part_p {
     margin-bottom: 18rem;
     margin-left: 4rem;
-    font-size: 2.5rem;
+    font-size: 7rem;
 }
 
 .box .image_h2 {
+
     justify-items: center;
 }
 
@@ -210,17 +211,16 @@ and (max-width: 767px) {
     .welcome_part_p {
         margin-bottom: 10rem;
         margin-left: 2rem;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     
     main h1 {
         margin-left: 3rem;
-        font-size: 4rem;
     }
     
     #about p {
         font-size: 1.25rem;
-        max-width: 35ch;
+        max-width: 22ch;
         margin-left: 2rem;
         margin-bottom: 5rem;
     }
