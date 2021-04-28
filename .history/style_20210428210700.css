@@ -113,12 +113,17 @@ main h1 {
 
 #projects h1 {
     margin-top: 10rem;
+    margin-bottom:
 }
 
 #about {
     background-color: #232429;
     height: 600px;
     color: #F7F7F7;
+}
+
+#about h1 {
+    margin-top: 
 }
 
 #about h2 {

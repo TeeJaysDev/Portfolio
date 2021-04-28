@@ -116,14 +116,7 @@ main h1 {
 }
 
 #about {
-    background-color: #232429;
-    height: 600px;
-    color: #F7F7F7;
-}
-
-#about h2 {
-    margin-left: 5rem;
-    margin-top: 7rem;
+    background-color: 
 }
 
 #about p {
@@ -132,6 +125,11 @@ main h1 {
     margin-left: 8rem;
     margin-bottom: 5rem;
     margin-top: 2rem;
+}
+
+#about h2 {
+    margin-left: 5rem;
+    margin-top: 3rem;
 }
 
 footer, footer h2 {

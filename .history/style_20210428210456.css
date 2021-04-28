@@ -121,6 +121,10 @@ main h1 {
     color: #F7F7F7;
 }
 
+#about h1 {
+    margin-bottom: 2rem;
+}
+
 #about h2 {
     margin-left: 5rem;
     margin-top: 7rem;
