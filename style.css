@@ -62,9 +62,27 @@ nav a {
 }
 
 .welcome_part_p {
-    margin-bottom: 18rem;
+    margin-bottom: 7rem;
     margin-left: 4rem;
     font-size: 2.5rem;
+}
+
+.downarrow {
+    margin-left: 49.25%;
+}
+
+main h1 {
+    font-size: 5rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+#skills {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 400px);
+    margin-left: 4.5rem;
+    gap: 3.15rem;
 }
 
 .box .image_h2 {
@@ -76,24 +94,12 @@ nav a {
     height: 100px;
 }
 
-#skills {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, 400px);
-    margin-left: 4.5rem;
-}
-
-main h1 {
-    font-size: 5rem;
-    margin-left: 10rem;
-    margin-top: 10rem;
-}
-
 .image_h2 {
     display: flex;
     flex-wrap: wrap;
-    margin: 4rem 20rem 1rem 1rem;
+    margin: 4rem 10rem 2rem 1rem;
     font-size: 2rem;
+    gap: 0.25rem;
 }
 
 .text {
@@ -120,6 +126,13 @@ main h1 {
 
 #projects h1 {
     margin-top: 10rem;
+}
+
+#projects img {
+    margin-top: 5rem;
+    margin-left: 7rem;
+    width: 600px;
+    height: 300px;
 }
 
 #about {
@@ -185,10 +198,7 @@ footer ul li{
 footer .fab {
     color: #50E8D5;
     font-size: 2rem;
-}
-
-footer img{
-    width: 2.2rem;
+    grid-template-columns: repeat(auto-fit, 1fr);
 }
 
 body .error {
@@ -254,43 +264,63 @@ and (max-width: 767px) {
     .welcome_part_h1 {
         margin-top: 1rem;
         margin-left: 2rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
         min-width: 18ch;
+    }
+
+    .welcome_part_h1 strong {
+        -webkit-text-stroke: 1.1px black;
     }
 
     .welcome_part_h1_2 {
         margin-bottom: 2rem;
         margin-left: 2rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     
     .welcome_part_p {
-        margin-bottom: 10rem;
+        margin-bottom: 8rem;
         margin-left: 2rem;
         font-size: 1.2rem;
     }
     
     main h1 {
-        margin-left: 3rem;
-        font-size: 4rem;
+        margin-left: 1.5rem;
+        margin-bottom: 3rem;
+        font-size: 3rem;
+    }
+
+    .image_h2 {
+        margin: 1rem 20rem 0rem 1rem;
+        font-size: 1.7rem;
+    }
+
+    .image_h2 img {
+        width: 70px;
+        margin-bottom: -1rem;
     }
     
+    .text ul li {
+        font-size: 0.8rem;
+        margin: 0.3125rem 0.2rem auto 0.7rem;
+        width: 5rem;
+    }
+
+    #about h2 {
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
     #about p {
         font-size: 1.25rem;
         max-width: 35ch;
-        margin-left: 2rem;
-        margin-bottom: 5rem;
-    }
-    
-    #about h2 {
-        margin-left: 2rem;
-        margin-top: 5rem;
+        margin: 1rem auto 5rem 2rem;
     }
 
     .p1, .p2, .p3{
         font-size: 1.25rem;
-        min-width: 32ch;
-        max-width: 33ch;
+        min-width: 15ch;
+        max-width: 23ch;
     }
     
     .p1, .p3 {
@@ -306,7 +336,7 @@ and (max-width: 767px) {
 
     #about img {
         margin-left: -1rem;
-        width: 400px;
+        width: 300px;
         height: 100px;
     }
 
@@ -314,18 +344,17 @@ and (max-width: 767px) {
         width: 200px;
     }
     
-    footer, footer h4 {
-        padding-top: 1.875rem;
-        padding-bottom: 3.125rem;
-        width: 100%;
-    }
-    
-    footer li{
+    footer ul li{
+        margin: 0rem 0.7rem;
         display: inline;
     }
+    
+    footer .fab {
+        color: #50E8D5;
+        font-size: 2rem;
+        grid-template-columns: repeat(auto-fit, 1fr);
+    }
 }
-
-
 
 @media only screen
 and (min-width: 768px)
@@ -466,24 +495,43 @@ and (max-width: 1230) {
 @media only screen
 and (min-width: 550px)
 and (max-width: 700px) {
+    
+    nav a {
+        color: #000000;
+        padding: 0.5rem;
+        margin-top: 2rem;
+        margin-right: 3.125rem;
+        font-size: 1rem;
+    }
+
     .welcome_part_h2 {
-        font-family: monospace;
-        font-size: 3.75rem;
-        margin-top: 13rem;
+        font-size: 2.75rem;
+        margin-top: 9rem;
         margin-left: 2.5rem;
         margin-bottom: 0rem;
     }
-    
-    .welcome_part_h1 {
+
+    .welcome_part_h1, .welcome_part_h1_2{
         margin-top: 2rem;
         margin-left: 5rem;
-        margin-bottom: 2rem;
-        font-size: 2.6rem;
+        font-family: Raleway;
+        font-weight: lighter;
+        font-size: 2.5rem;
+        min-width: 18ch;
     }
-    
+
+    .welcome_part_h1_2 {
+        margin: 0.5rem auto 2rem 5rem;
+        font-family: Raleway;
+        font-weight: lighter;
+        font-size: 2.75rem;
+        min-width: 18ch;
+    }
+
     .welcome_part_p {
-        margin-bottom: 20rem;
+        margin-bottom: 7rem;
         margin-left: 4rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -509,9 +557,4 @@ and (min-width: 1920px) {
         margin-left: 4rem;
         font-size: 2.5rem;
     }
-}
-
-@media only screen
-and (max-width: 950) {
-    
 }
