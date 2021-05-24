@@ -3,8 +3,11 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    position: relative;
     font-family: sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -18,28 +21,14 @@ nav {
 
 nav a {
     color: #000000;
-    padding: 0.938rem;
-    margin-top: 2rem;
-    margin-right: 3.125rem;
-    font-size: 1.563rem;
-}
-
-.welcome_part_h1 strong {
-    background-image: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
-    background-size: 100%;
-    background-repeat: repeat;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    -webkit-text-stroke: 1.5px black;
+    margin: 2rem 3.125rem 0rem 3rem;
+    font-size: 2rem;
 }
 
 .welcome_part_h2 {
     font-family: monospace;
     font-size: 3.75rem;
-    margin-top: 9rem;
+    margin-top: 10rem;
     margin-left: 2.5rem;
     margin-bottom: 0rem;
 }
@@ -61,37 +50,51 @@ nav a {
     min-width: 18ch;
 }
 
+.welcome_part_h1 strong {
+    background-image: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px black;
+}
+
 .welcome_part_p {
     margin-bottom: 7rem;
     margin-left: 4rem;
     font-size: 2.5rem;
 }
 
-.downarrow {
-    margin-left: 49.25%;
+header a button {
+    padding: 1rem;
+    width: 15rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-left: 45%;
+    margin-bottom: 13rem;
+    background-image: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
+    color: #000000;
+    cursor: pointer;
 }
 
 main h1 {
+    width: 100%;
     font-size: 5rem;
     margin-left: 10rem;
     margin-top: 10rem;
+    min-width: 10ch; 
 }
 
 #skills {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, 400px);
-    margin-left: 4.5rem;
     gap: 3.15rem;
-}
-
-.box .image_h2 {
-    justify-items: center;
-}
-
-.image_h2 img {
-    width: 100px;
-    height: 100px;
 }
 
 .image_h2 {
@@ -100,6 +103,12 @@ main h1 {
     margin: 4rem 10rem 2rem 1rem;
     font-size: 2rem;
     gap: 0.25rem;
+    justify-items: center;
+}
+
+.image_h2 img {
+    width: 100px;
+    height: 100px;
 }
 
 .text {
@@ -108,7 +117,6 @@ main h1 {
 }
 
 .text ul li {
-    list-style: none;
     margin: 1rem;
     color: #000000;
     font-weight: bold;
@@ -126,6 +134,7 @@ main h1 {
 
 #projects h1 {
     margin-top: 10rem;
+    margin-bottom: 7rem;
 }
 
 #projects img {
@@ -136,7 +145,10 @@ main h1 {
 }
 
 #about {
+    width: 100%;
     display: inline-block;
+    background-image: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
+    padding-right: 66vw;
 }
 
 #about h2 {
@@ -145,6 +157,7 @@ main h1 {
 }
 
 .p1, .p2, .p3{
+    display: block;
     font-size: 1.25rem;
     min-width: 32ch;
     max-width: 45ch;
@@ -161,8 +174,8 @@ main h1 {
 }
 
 #about img {
-    width: 600px;
-    height: 300px;
+    width: 663.33px;
+    height: 346.33px;
 }
 
 #contact {
@@ -178,27 +191,35 @@ main h1 {
     margin-bottom: 7rem;
 }
 
-footer, footer h2 {
+footer {
+    bottom: 0;
+    background: #232429;
+    text-align: center;
+}
+
+footer h2{
     color: #C5C4C6;
-    background-color: #232429;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.938rem;
     font-weight: lighter;
-    text-align: center;
-    z-index: -1;
+}
+
+footer, footer h2 {
     padding-top: 1.875rem;
     padding-bottom: 3.125rem;
 }
 
-footer ul li{
-    margin: 0rem 1.5rem;
+footer ul li {
+    margin: auto 1.5rem;
     display: inline;
 }
 
 footer .fab {
     color: #50E8D5;
     font-size: 2rem;
+    text-align: center;
     grid-template-columns: repeat(auto-fit, 1fr);
+    width: fit-content;
 }
 
 body .error {
@@ -242,15 +263,13 @@ and (max-width: 767px) {
     
     nav {
         display: flex;
-        justify-content: flex-end;
-        margin-right: 1rem;
-        margin-top: 0rem;
+        justify-content: center;
     }
     
     nav a {
-        padding: 0.938rem;
+        padding: 0.1rem;
         margin-top: 2rem;
-        margin-right: -1rem;
+        margin-right: 0rem;
         font-size: 1rem;
     }
     
@@ -279,30 +298,41 @@ and (max-width: 767px) {
     }
     
     .welcome_part_p {
-        margin-bottom: 8rem;
+        margin-bottom: 4rem;
         margin-left: 2rem;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
     
+    header a button {
+        margin-left: 17%;
+        margin-bottom: 10rem;
+        background-image: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
+        color: #000000;
+        cursor: pointer;
+    }
+
     main h1 {
         margin-left: 1.5rem;
         margin-bottom: 3rem;
         font-size: 3rem;
     }
 
-    .image_h2 {
-        margin: 1rem 20rem 0rem 1rem;
-        font-size: 1.7rem;
+    .box {
+        margin-left: 5rem;
     }
 
     .image_h2 img {
         width: 70px;
         margin-bottom: -1rem;
     }
+
+    .image_h2 h2 {
+        font-size: 2.5rem;
+    }
     
     .text ul li {
         font-size: 0.8rem;
-        margin: 0.3125rem 0.2rem auto 0.7rem;
+        margin: 0.3125rem 0rem auto 0.01rem;
         width: 5rem;
     }
 
@@ -336,14 +366,14 @@ and (max-width: 767px) {
 
     #about img {
         margin-left: -1rem;
-        width: 300px;
-        height: 100px;
+        width: 331.66px;
+        height: 173.16px;
     }
 
     #contact img {
         width: 200px;
     }
-    
+
     footer ul li{
         margin: 0rem 0.7rem;
         display: inline;
@@ -358,25 +388,11 @@ and (max-width: 767px) {
 
 @media only screen
 and (min-width: 768px)
-and (max-width: 1024px)
-and (orientation: portrait) {
-    
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-        text-decoration: none;
-    }
-    
-    body {
-        background-color: #F7F7F7;
-    }
+and (max-width: 1024px) {
     
     nav {
         display: flex;
         justify-content: flex-end;
-        margin-right: 0rem;
-        margin-top: 0rem;
     }
     
     nav a {
@@ -389,25 +405,36 @@ and (orientation: portrait) {
     
     .welcome_part_h2 {
         font-family: monospace;
-        font-size: 3.75rem;
-        margin-top: 13rem;
+        font-size: 3rem;
+        margin-top: 4rem;
         margin-left: 2.5rem;
-        margin-bottom: 0rem;
     }
     
-    .welcome_part_h1 {
+    .welcome_part_h1, .welcome_part_h1_2 {
         margin-top: 2rem;
         margin-left: 5rem;
         margin-bottom: 2rem;
-        font-family: Raleway;
-        font-weight: lighter;
-        font-size: 3.9rem;
-        min-width: 18ch;
+        font-size: 3.3rem;
+    }
+
+    .welcome_part_h1_2 { 
+        font-size: 2.7rem;   
     }
     
     .welcome_part_p {
-        margin-bottom: 20rem;
+        margin-bottom: 4.3rem;
         margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    header a button {
+        margin-left: 35%;
+    }
+
+    main h1 {
+        margin-left: 10rem;
+        margin-bottom: 3rem;
+        font-size: 4rem;    
     }
     
     #about p {
@@ -536,25 +563,17 @@ and (max-width: 700px) {
 }
 
 @media only screen
-and (min-width: 1920px) {
-    .welcome_part_h2 {
-        font-family: monospace;
-        font-size: 3.75rem;
-        margin-top: 13rem;
-        margin-left: 2.5rem;
-        margin-bottom: 0rem;
-    }
-    
-    .welcome_part_h1 {
+and (min-width: 628px) 
+and (max-width: 700px) {
+    .welcome_part_h1, .welcome_part_h1_2 {
         margin-top: 2rem;
         margin-left: 5rem;
-        margin-bottom: 2rem;
-        font-size: 5rem;
-    }
-    
-    .welcome_part_p {
-        margin-bottom: 20rem;
-        margin-left: 4rem;
+        margin-bottom: 1rem;
         font-size: 2.5rem;
+    }
+
+    .welcome_part_h1_2 {
+        margin-top: 1rem;
+        font-size: 2.5rem;   
     }
 }
