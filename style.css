@@ -480,15 +480,16 @@ and (max-width: 767px) {
         font-size: 1.25rem;
         min-width: 15ch;
         max-width: 23ch;
-        text-align: center;
     }
     
     .p1, .p3 {
         text-align: left;
+        margin-left: 3rem;
     }
     
     .p2, .p4 {
         text-align: right;
+        margin-right: 2rem;
     }
 
     #about img {
