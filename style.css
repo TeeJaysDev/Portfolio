@@ -464,7 +464,7 @@ and (max-width: 767px) {
         margin: 0.3125rem 0rem auto 0.01rem;
         width: 5rem;
     }
-
+    
     #about h2 {
         margin-left: 2rem;
         margin-top: 2rem;
@@ -480,6 +480,7 @@ and (max-width: 767px) {
         font-size: 1.25rem;
         min-width: 15ch;
         max-width: 23ch;
+        justify-content: center;
     }
     
     .p1, .p3 {
