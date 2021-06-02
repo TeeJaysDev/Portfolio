@@ -480,7 +480,7 @@ and (max-width: 767px) {
         font-size: 1.25rem;
         min-width: 15ch;
         max-width: 23ch;
-        justify-content: center;
+        text-align: center;
     }
     
     .p1, .p3 {
