@@ -305,6 +305,10 @@ form label {
     resize: none;
 }
 
+.recaptcha {
+    margin: 3rem auto 3rem 5rem;
+}
+
 .mail, .messenger{
     display: flex;
     align-items: center;
