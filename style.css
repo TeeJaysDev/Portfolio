@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +16,6 @@
 
 ::-webkit-scrollbar {
     width: 10px;
-    height: 10px;
    }
 
 ::-webkit-scrollbar-thumb {
@@ -87,7 +90,7 @@ header {
 }
 
 .welcome_part_p {
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
     margin-left: 4rem;
     font-size: 2.5rem;
 }
@@ -107,6 +110,7 @@ header a button {
 
 header a button:hover {
     zoom: 1.1;
+    left: -0.5rem
 }
 
 main h1 {
@@ -184,7 +188,6 @@ main h1 {
 
 #about {
     width: 100%;
-    display: inline-block;
     background-color: #161616;
     padding-right: 66vw;
     color: #F7F7F7;
@@ -209,14 +212,25 @@ main h1 {
 }
 
 #about img {
-    width: 663.33px;
-    height: 346.33px;
-    margin-right: 20rem;
-    margin-top: -2rem;
+    width: 426.15px;
+    height: 500.5px;
+    z-index: 1;
+    border-radius: 1rem;
 }
 
-.p2-img {
+#about .box {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
+    z-index: 0;
+    left: -30rem;
+}
+
+.unity {
     display: flex;
+    float: right;
+    left: -20rem;
+    bottom: 15rem;
 }
 
 #contact {
@@ -311,6 +325,7 @@ form label {
     border: 0.1rem solid #000000;
     font-size: 1.3rem;
     background-image: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
+    cursor: pointer;
 }
 
 footer {
@@ -492,10 +507,25 @@ and (max-width: 767px) {
         margin-left: 2rem;
     }
 
+    .p4 {
+        margin-bottom: 3rem;
+    }
+
     #about img {
-        margin-left: -1rem;
-        width: 331.66px;
-        height: 173.16px;
+        width: 238.083px;
+        height: 275.25px;
+    }
+    
+    #about .box {
+        width: 225px;
+        height: 200px;
+    }
+    
+    .unity {
+        left: auto;
+        right: -17rem;
+        margin-bottom: -10rem;
+        margin-top: 15rem;
     }
 
     .form-box {
@@ -606,6 +636,27 @@ and (max-width: 1024px) {
         max-width: 45ch;
         margin-left: 8rem;
         margin-bottom: 5rem;
+    }
+
+    .p4 {
+        margin-bottom: 3rem;
+    }
+
+    #about img {
+        width: 288.083px;
+        height: 325.25px;
+    }
+    
+    #about .box {
+        width: 300px;
+        height: 175px;
+    }
+    
+    .unity {
+        left: auto;
+        right: 0rem;
+        margin-bottom: -10rem;
+        margin-top: 15rem;
     }
     
     #contact h1 {
@@ -758,14 +809,23 @@ and (max-width: 700px) {
 }
 
 @media only screen
-and (min-width: 1920px) {
+and (min-width: 1000px) {
     
     nav a {
-        transition: all 200ms ease-out 300ms;
+        transition: all 200ms ease-out 50ms;
     }
 
     nav a:hover {
-        font-size: 2.3rem;
-        border-bottom: 0.5rem solid linear-gradient(147deg, #4bffa5, #54d4ff 90%);
+        background-color: #161616;
+        color: #F7F7F7;
+    }
+}
+
+@media only screen
+and (min-width: 945px)
+and (max-width: 1861px) {
+
+    .unity {
+        display: none;
     }
 }
