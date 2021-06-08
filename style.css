@@ -479,7 +479,7 @@ and (max-width: 767px) {
         margin: 0.3125rem 0rem auto 0.01rem;
         width: 5rem;
     }
-
+    
     #about h2 {
         margin-left: 2rem;
         margin-top: 2rem;
@@ -504,7 +504,7 @@ and (max-width: 767px) {
     
     .p2, .p4 {
         text-align: right;
-        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
     .p4 {
