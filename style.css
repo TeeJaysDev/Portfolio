@@ -306,7 +306,8 @@ form label {
 }
 
 .recaptcha {
-    margin: 3rem auto 3rem 5rem;
+    margin: 3rem auto 3rem 3rem;
+    overflow-y: hidden;
 }
 
 .mail, .messenger{
