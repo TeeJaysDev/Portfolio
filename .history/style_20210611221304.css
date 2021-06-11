@@ -65,6 +65,7 @@ header {
     animation: appear_header 2000ms; 
 }
 
+
 @keyframes appear_header {
     0% {
         opacity: 0;
@@ -73,9 +74,10 @@ header {
 
     100% {
         opacity: 1;
-        margin-left: 0rem;
+        margin-left: 5rem;
     }
 }
+
 
 .welcome_part_h2 {
     font-family: monospace;

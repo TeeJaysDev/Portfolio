@@ -46,35 +46,10 @@ nav a {
     padding: 2rem 3.125rem 2rem 3rem;
     font-size: 2rem;
     min-width: 10ch;
-    animation: 2050ms appear_nav;
-}
-
-@keyframes appear_nav {
-    0% {
-        opacity: 0;
-        margin-left: -50rem;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 
 header {
     border-bottom: 1px solid #e2e2e2;
-    animation: appear_header 2000ms; 
-}
-
-@keyframes appear_header {
-    0% {
-        opacity: 0;
-        margin-left: -50rem;
-    }
-
-    100% {
-        opacity: 1;
-        margin-left: 0rem;
-    }
 }
 
 .welcome_part_h2 {
@@ -92,7 +67,13 @@ header {
     font-weight: lighter;
     font-size: 5rem;
     min-width: 18ch;
+    animation: 200ms 
 }
+
+.welcome_part_h1:onload, .welcome_part_h1_2:onload {
+    opacity: 
+}
+
 
 .welcome_part_h1_2 {
     margin: 0.5rem auto 2rem 5rem;
@@ -143,7 +124,7 @@ main h1 {
     font-size: 5rem;
     margin-left: 10rem;
     margin-top: 10rem;
-    min-width: 10ch;
+    min-width: 10ch; 
 }
 
 .skills {

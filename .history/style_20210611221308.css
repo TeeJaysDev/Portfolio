@@ -73,9 +73,10 @@ header {
 
     100% {
         opacity: 1;
-        margin-left: 0rem;
+        margin-left: 5rem;
     }
 }
+
 
 .welcome_part_h2 {
     font-family: monospace;

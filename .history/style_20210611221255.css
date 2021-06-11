@@ -62,19 +62,6 @@ nav a {
 
 header {
     border-bottom: 1px solid #e2e2e2;
-    animation: appear_header 2000ms; 
-}
-
-@keyframes appear_header {
-    0% {
-        opacity: 0;
-        margin-left: -50rem;
-    }
-
-    100% {
-        opacity: 1;
-        margin-left: 0rem;
-    }
 }
 
 .welcome_part_h2 {
@@ -93,6 +80,19 @@ header {
     font-size: 5rem;
     min-width: 18ch;
 }
+
+@keyframes appear_header {
+    0% {
+        opacity: 0;
+        margin-left: -50rem;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 5rem;
+    }
+}
+
 
 .welcome_part_h1_2 {
     margin: 0.5rem auto 2rem 5rem;
