@@ -403,8 +403,9 @@ and (max-width: 767px) {
     }
     
     nav a {
-        padding: 1rem 0rem 1rem 0.1rem;
-        font-size: 0.8rem;
+        /*padding: 1rem 0rem 1rem 1rem;
+        margin: -0.1rem auto -0.1rem auto;
+        font-size: 0.74rem;*/
     }
     
     .welcome_part_h2 {
@@ -568,7 +569,8 @@ and (max-width: 1024px) {
     }
     
     nav a {
-        padding: 1rem 2rem 1rem 1rem;
+        padding: 1rem 0rem 1rem 1rem;
+        margin: -0.1rem auto -0.1rem auto;
         font-size: 1.563rem;
     }
     
