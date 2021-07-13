@@ -40,9 +40,7 @@ nav {
     overflow-y: hidden;
 }
 
-nav a:hover {
-    background-color: #e7e7e7;
-}
+
 
 nav a {
     color: #000000;
@@ -385,7 +383,7 @@ footer ul li {
 }
 
 footer .fab {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #4bffa5;
     width: fit-content;
     text-align: center;

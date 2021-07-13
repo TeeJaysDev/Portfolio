@@ -36,12 +36,9 @@ body {
 nav {
     display: flex;
     justify-content: flex-end;
+    background-color: #f3f3f3;
     box-shadow: 0.1rem 0.1rem 0rem 0rem #1616161a;
     overflow-y: hidden;
-}
-
-nav a:hover {
-    background-color: #e7e7e7;
 }
 
 nav a {
@@ -385,7 +382,7 @@ footer ul li {
 }
 
 footer .fab {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #4bffa5;
     width: fit-content;
     text-align: center;
@@ -490,11 +487,17 @@ and (max-width: 767px) {
     .p1, .p2, .p3, .p4 {
         font-size: 1.25rem;
         min-width: 15ch;
-        max-width: 30ch;
+        max-width: 
     }
     
-    .p1, .p2, .p3, .p4 {
+    .p1, .p3 {
+        text-align: left;
         margin-left: 3rem;
+    }
+    
+    .p2, .p4 {
+        text-align: right;
+        margin-right: 2rem;
     }
 
     .p4 {

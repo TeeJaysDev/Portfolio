@@ -41,7 +41,7 @@ nav {
 }
 
 nav a:hover {
-    background-color: #e7e7e7;
+    background-color: #aaaaaa;
 }
 
 nav a {
@@ -385,7 +385,7 @@ footer ul li {
 }
 
 footer .fab {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #4bffa5;
     width: fit-content;
     text-align: center;
