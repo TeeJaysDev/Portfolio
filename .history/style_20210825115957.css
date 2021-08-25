@@ -46,7 +46,7 @@ nav a:hover {
 
 nav a {
     color: #000000;
-    padding: 2rem 3rem 2rem 3rem;
+    padding: 2rem 3.125rem 2rem 3rem;
     font-size: 2rem;
     min-width: 10ch;
     animation: 2050ms appear_nav;
@@ -55,7 +55,7 @@ nav a {
 @keyframes appear_nav {
     0% {
         opacity: 0;
-        margin-left: -20rem;
+        margin-left: -50rem;
     }
 
     100% {
@@ -71,7 +71,7 @@ header {
 @keyframes appear_header {
     0% {
         opacity: 0;
-        margin-left: -20rem;
+        margin-left: -50rem;
     }
 
     100% {
@@ -83,7 +83,7 @@ header {
 .welcome_part_h2 {
     font-family: monospace;
     font-size: 3.75rem;
-    margin-top: 4rem;
+    margin-top: 10rem;
     margin-left: 2.5rem;
     margin-bottom: 0rem;
 }
@@ -259,7 +259,7 @@ main h1 {
 }
 
 #about img {
-    width: 415.415px;
+    width: 426.15px;
     height: 500.5px;
     z-index: 1;
     border-radius: 1rem;
@@ -405,12 +405,11 @@ footer ul li {
 
 footer .fab {
     font-size: 1.5rem;
-    
     color: #1616161a;
     width: fit-content;
     text-align: center;
     grid-template-columns: repeat(auto-fit, 1fr);
-    background: #979797;
+    background: #1616161a;
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -538,12 +537,12 @@ and (max-width: 767px) {
     .p4 {
         margin-bottom: 3rem;
     }
-    
+
     #about img {
-        width: 206.25px;
+        width: 238.083px;
         height: 275.25px;
     }
-
+    
     #about .box {
         width: 225px;
         height: 200px;
@@ -678,7 +677,7 @@ and (max-width: 1024px) {
     }
 
     #about img {
-        width: 269.9575px;
+        width: 288.083px;
         height: 325.25px;
     }
     

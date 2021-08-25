@@ -46,7 +46,7 @@ nav a:hover {
 
 nav a {
     color: #000000;
-    padding: 2rem 3rem 2rem 3rem;
+    padding: 2rem 3.125rem 2rem 3rem;
     font-size: 2rem;
     min-width: 10ch;
     animation: 2050ms appear_nav;
@@ -540,7 +540,7 @@ and (max-width: 767px) {
     }
     
     #about img {
-        width: 206.25px;
+        width: 228.4575px;
         height: 275.25px;
     }
 
@@ -678,7 +678,7 @@ and (max-width: 1024px) {
     }
 
     #about img {
-        width: 269.9575px;
+        width: 269.95px;
         height: 325.25px;
     }
     
