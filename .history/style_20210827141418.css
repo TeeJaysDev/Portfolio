@@ -266,7 +266,7 @@ main h1 {
     font-size: 1.25rem;
     min-width: 32ch;
     max-width: 45ch;
-    margin: 4rem auto 4rem 8rem;
+    margin: 4rem auto 4rem 4rem;
     line-height: 1.7rem;
 }
 
@@ -550,11 +550,11 @@ and (max-width: 767px) {
     .p1, .p2, .p3, .p4 {
         font-size: 1.25rem;
         min-width: 15ch;
-        max-width: 23ch;
+        max-width: 30ch;
     }
     
     .p1, .p2, .p3, .p4 {
-        margin-left: 2.5rem;
+        margin-left: 3rem;
     }
 
     .p4 {

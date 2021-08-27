@@ -233,16 +233,18 @@ main h1 {
     height: 300px;
 }
 
-.spacer, .spacer2 {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+.curve {
+    position: absolute;
+    height: 225px;
+    
+}
 
-.wave, .wave2 {
-    background-image: url('./Images/svg/wave.svg');
+.curve::before {
+
+}
+
+.curve::after {
+
 }
 
 #about {
@@ -250,10 +252,6 @@ main h1 {
     background-color: #161616;
     padding-right: 66vw;
     color: #F7F7F7;
-}
-
-#about h1 {
-    margin-top: 5rem;
 }
 
 #about h2 {
@@ -296,17 +294,11 @@ main h1 {
     bottom: 15rem;
 }
 
-.wave2 {
-    margin-bottom: -2rem;
-    transform: scaleY(-1);
-}
-
 #contact {
     display: block;
 }
 
 #contact h1 {
-    margin-top: 0rem;
     margin-bottom: 4rem;
 }
 
@@ -550,11 +542,11 @@ and (max-width: 767px) {
     .p1, .p2, .p3, .p4 {
         font-size: 1.25rem;
         min-width: 15ch;
-        max-width: 23ch;
+        max-width: 30ch;
     }
     
     .p1, .p2, .p3, .p4 {
-        margin-left: 2.5rem;
+        margin-left: 3rem;
     }
 
     .p4 {

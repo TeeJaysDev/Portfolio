@@ -245,6 +245,8 @@ main h1 {
     background-image: url('./Images/svg/wave.svg');
 }
 
+wa
+
 #about {
     width: 100%;
     background-color: #161616;
@@ -297,7 +299,7 @@ main h1 {
 }
 
 .wave2 {
-    margin-bottom: -2rem;
+    margin-bottom: -15rem;
     transform: scaleY(-1);
 }
 
@@ -550,11 +552,11 @@ and (max-width: 767px) {
     .p1, .p2, .p3, .p4 {
         font-size: 1.25rem;
         min-width: 15ch;
-        max-width: 23ch;
+        max-width: 30ch;
     }
     
     .p1, .p2, .p3, .p4 {
-        margin-left: 2.5rem;
+        margin-left: 3rem;
     }
 
     .p4 {
