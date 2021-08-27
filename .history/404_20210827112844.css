@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #161616;
+}
+
+h1, h3 {
+    display: flex;
+    justify-content: center;
+    color: #F7F7F7;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #202020;
+    font-size: 40rem;
+    margin-top: 5rem;
+}
+
+button a {
+    text-align: center;
+    font-size: 3rem;
+    color: #000000;
+}
+
+button {
+    padding: 1rem;
+    width: 23rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 23rem;
+    margin-top: 10rem;
+    background-image: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
+    color: #000000;
+    cursor: pointer;
+}
+
+@media only screen 
+and (max-width: 2560px)
+and (min-width: 1440px) {
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 25rem;
+        margin-top: 1.5rem;
+    }
+    
+    button a {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #000000;
+    }
+    
+    button {
+        width: 20rem;
+        margin-left: 7rem;
+    }
+}
+
+@media only screen 
+and (max-width: 1440px)
+and (min-width: 1024px){
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 15rem;
+        margin-top: 1rem;
+    }
+    
+    button a {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #000000;
+    }
+    
+    button {
+        width: 15rem;
+        margin-left: 4.5rem;
+        margin-top: 4rem;
+    }
+}
+
+@media only screen 
+and (max-width: 1024px)
+and (min-width: 768px){
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 25rem;
+        margin-top: 10rem;
+    }
+    
+    button a {
+        text-align: center;
+        font-size: 1.25rem;
+        color: #000000;
+    }
+    
+    button {
+        width: 10rem;
+        margin-left: 4.5rem;
+        margin-top: 10rem;
+    }
+}
+
+@media only screen 
+and (min-width: 320px){
+
+    h1 {
+        font-size: 1rem;
+    }
+    
+    h3 {
+        font-size: 0.75rem;
+    }
+    
+    h2 {
+        font-size: 10rem;
+        margin-top: 1rem;
+    }
+    
+    button a {
+        font-size: 0.5rem;
+    }
+    
+    button {
+        width: 5rem;
+        margin-left: 0.5rem;
+        margin-top: 4rem;
+    }
+}
