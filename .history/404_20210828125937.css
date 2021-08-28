@@ -46,12 +46,21 @@ button a {
 
 button {
     padding: 1rem;
-    max-width: 23rem;
-    min-width: 5.5rem;
+    width: 23rem;
     text-align: center;
-    margin: 10rem auto auto auto;
+    margin-top: 10rem;
     background-image: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
     cursor: pointer;
+}
+
+.btn_portfolio {
+    dis
+    justify-content: center;
+
+}
+
+.btn_projects {
+    margin-left: 5rem;
 }
 
 @media only screen 
@@ -79,23 +88,6 @@ and (min-width: 320px){
         margin-left: 0.5rem;
         margin-top: 4rem;
     }
-
-    .buttons {
-        display: flex;
-        margin-top: 5rem;
-    }
-    
-    .btn_portfolio {
-        margin: auto 1rem auto auto;
-    }
-
-    .btn_about{
-        margin: auto;
-    }
-    
-    .btn_projects {
-        margin: auto auto auto 1rem;
-    }
 }
 
 @media only screen 
@@ -109,7 +101,6 @@ and (min-width: 768px){
 
     h2 {
         font-size: 2rem;
-        margin-top: 4rem;
     }
     
     h3 {
@@ -140,7 +131,6 @@ and (min-width: 1024px){
 
     h2 {
         font-size: 3rem;
-        margin-top: 3rem;
     }
     
     h3 {
@@ -158,23 +148,6 @@ and (min-width: 1024px){
         margin-left: 4.5rem;
         margin-top: 4rem;
     }
-
-    .buttons {
-        display: flex;
-        margin-top: 20rem;
-    }
-    
-    .btn_portfolio {
-        margin: auto 5rem auto auto;
-    }
-
-    .btn_about{
-        margin: auto;
-    }
-    
-    .btn_projects {
-        margin: auto auto auto 5rem;
-    }
 }
 
 @media only screen 
@@ -183,7 +156,7 @@ and (min-width: 1440px) {
     
     h1 {
         font-size: 25rem;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
 
     h2 {
@@ -203,22 +176,5 @@ and (min-width: 1440px) {
     button {
         width: 20rem;
         margin-top: 10rem;
-    }
-    
-    .buttons {
-        display: flex;
-        margin-top: 10rem;
-    }
-    
-    .btn_portfolio {
-        margin: auto 5rem auto auto;
-    }
-
-    .btn_about{
-        margin: auto;
-    }
-    
-    .btn_projects {
-        margin: auto auto auto 5rem;
     }
 }

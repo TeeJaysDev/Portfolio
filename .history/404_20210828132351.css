@@ -75,26 +75,8 @@ and (min-width: 320px){
     }
     
     button {
-        width: 5.5rem;
         margin-left: 0.5rem;
         margin-top: 4rem;
-    }
-
-    .buttons {
-        display: flex;
-        margin-top: 5rem;
-    }
-    
-    .btn_portfolio {
-        margin: auto 1rem auto auto;
-    }
-
-    .btn_about{
-        margin: auto;
-    }
-    
-    .btn_projects {
-        margin: auto auto auto 1rem;
     }
 }
 
@@ -109,7 +91,6 @@ and (min-width: 768px){
 
     h2 {
         font-size: 2rem;
-        margin-top: 4rem;
     }
     
     h3 {
@@ -123,7 +104,6 @@ and (min-width: 768px){
     }
     
     button {
-        width: 10rem;
         margin-left: 4.5rem;
         margin-top: 10rem;
     }
@@ -140,7 +120,6 @@ and (min-width: 1024px){
 
     h2 {
         font-size: 3rem;
-        margin-top: 3rem;
     }
     
     h3 {
@@ -154,26 +133,8 @@ and (min-width: 1024px){
     }
     
     button {
-        width: 15rem;
         margin-left: 4.5rem;
         margin-top: 4rem;
-    }
-
-    .buttons {
-        display: flex;
-        margin-top: 20rem;
-    }
-    
-    .btn_portfolio {
-        margin: auto 5rem auto auto;
-    }
-
-    .btn_about{
-        margin: auto;
-    }
-    
-    .btn_projects {
-        margin: auto auto auto 5rem;
     }
 }
 
@@ -183,7 +144,7 @@ and (min-width: 1440px) {
     
     h1 {
         font-size: 25rem;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
 
     h2 {
@@ -201,13 +162,11 @@ and (min-width: 1440px) {
     }
     
     button {
-        width: 20rem;
         margin-top: 10rem;
     }
-    
+
     .buttons {
-        display: flex;
-        margin-top: 10rem;
+        border: 20px solid #ffffff;
     }
     
     .btn_portfolio {
@@ -219,6 +178,6 @@ and (min-width: 1440px) {
     }
     
     .btn_projects {
-        margin: auto auto auto 5rem;
+        margin: 10rem auto auto 5rem;
     }
 }

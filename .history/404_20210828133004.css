@@ -79,23 +79,6 @@ and (min-width: 320px){
         margin-left: 0.5rem;
         margin-top: 4rem;
     }
-
-    .buttons {
-        display: flex;
-        margin-top: 5rem;
-    }
-    
-    .btn_portfolio {
-        margin: auto 1rem auto auto;
-    }
-
-    .btn_about{
-        margin: auto;
-    }
-    
-    .btn_projects {
-        margin: auto auto auto 1rem;
-    }
 }
 
 @media only screen 
@@ -109,7 +92,7 @@ and (min-width: 768px){
 
     h2 {
         font-size: 2rem;
-        margin-top: 4rem;
+        margin-top: 5rem;
     }
     
     h3 {
@@ -135,7 +118,7 @@ and (min-width: 1024px){
 
     h1 {
         font-size: 15rem;
-        margin-top: 1rem;
+        margin-top: 15rem;
     }
 
     h2 {
@@ -183,7 +166,7 @@ and (min-width: 1440px) {
     
     h1 {
         font-size: 25rem;
-        margin-top: 1rem;
+        margin-top: 10rem;
     }
 
     h2 {
@@ -207,7 +190,7 @@ and (min-width: 1440px) {
     
     .buttons {
         display: flex;
-        margin-top: 10rem;
+        margin-top: 20rem;
     }
     
     .btn_portfolio {

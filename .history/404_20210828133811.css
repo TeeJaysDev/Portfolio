@@ -207,7 +207,7 @@ and (min-width: 1440px) {
     
     .buttons {
         display: flex;
-        margin-top: 10rem;
+        margin-top: 9rem;
     }
     
     .btn_portfolio {
