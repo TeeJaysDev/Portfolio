@@ -375,7 +375,7 @@ form label {
 }
 
 .recaptcha {
-    margin: 3rem auto 3rem 2.5rem;
+    margin: 3rem auto 3rem 3rem;
     overflow-y: hidden;
 }
 
@@ -530,8 +530,7 @@ and (max-width: 767px) {
     }
 
     .certificates_pl {
-        margin: 2rem auto 10rem 2.5rem;
-        max-width: 30ch;
+        margin: 2rem auto 10rem 2rem;
     }
 
     #projects h1 {

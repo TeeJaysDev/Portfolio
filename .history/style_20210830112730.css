@@ -208,7 +208,7 @@ main h1 {
 }
 
 .certificates_en {
-    font-size: 2rem;
+    font-size: 1rem;
     max-width: 55ch;
     margin: auto auto 1rem 12rem;
 }
@@ -375,7 +375,7 @@ form label {
 }
 
 .recaptcha {
-    margin: 3rem auto 3rem 2.5rem;
+    margin: 3rem auto 3rem 3rem;
     overflow-y: hidden;
 }
 
@@ -525,13 +525,12 @@ and (max-width: 767px) {
     }
 
     .certificates_en {
-        font-size: 1.85rem;
+        font-size: 1.75rem;
         margin: auto auto 1rem 2rem;
     }
 
     .certificates_pl {
-        margin: 2rem auto 10rem 2.5rem;
-        max-width: 30ch;
+        margin: 2rem auto 10rem 3rem;
     }
 
     #projects h1 {
