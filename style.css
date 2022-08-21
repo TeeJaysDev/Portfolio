@@ -149,35 +149,27 @@ main h1 {
     min-width: 10ch;
 }
 
-.certificates_h2 {
-    font-size: 4rem;
-    margin: 10rem auto 2.5rem 11rem;
+#skills div{
+    display: flex;
+    margin: 7rem 2rem 2rem 2rem;
+    font-size: 2.5rem;
 }
-
-.certificates_en {
-    font-size: 2rem;
-    max-width: 55ch;
-    margin: auto auto 1rem 12rem;
-}
-
-.linkedin, .polish {
-    color: #0277B5;
-}
-
-.certificates_pl {
-    margin-left: 13rem;
+#skills ul li {
+    display: inline-block;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 1rem;
+    background-image: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
+    margin: 0.3125rem;
+    padding: 1.25rem;
 }
 
 #projects h1 {
     margin-top: 10rem;
     margin-bottom: 7rem;
-}
-
-#projects img {
-    margin-top: 5rem;
-    margin-left: 7rem;
-    width: 600px;
-    height: 300px;
 }
 
 .spacer, .spacer2 {
@@ -202,45 +194,28 @@ main h1 {
     color: #F7F7F7;
 }
 
+.container {
+    display: flex;
+}
+
 #about h1 {
     margin-top: 5rem;
 }
 
 #about h2 {
-    margin-left: 5rem;
     margin-top: 7rem;
+    margin-bottom: 3rem;
 }
 
-.p1, .p2, .p3, .p4{
-    display: block;
+.p1, .p2, .p3 {
     font-size: 1.25rem;
-    min-width: 32ch;
-    max-width: 45ch;
-    margin: 4rem auto 4rem 8rem;
+    min-width: 25rem;
+    margin: 4rem auto 10rem 8rem;
     line-height: 1.7rem;
 }
 
-.p4 {
-    margin-bottom: 10rem;
-}
-
-#about img {
-    width: 415.415px;
-    height: 500.5px;
-    z-index: 1;
-    border-radius: 1rem;
-}
-
-#about .box {
-    width: 250px;
-    height: 250px;
-    background: linear-gradient(147deg, #4bffa5, #54d4ff 90%);
-    z-index: 0;
-    left: -30rem;
-}
-
 .wave2 {
-    margin-top: -10.1rem;
+    margin-top: -0.1rem;
     transform: scaleY(-1);
 }
 
@@ -269,7 +244,6 @@ footer ul li {
 
 footer .fab {
     font-size: 1.5rem;
-    
     color: #1616161a;
     width: fit-content;
     text-align: center;
@@ -338,23 +312,16 @@ and (max-width: 767px) {
         font-size: 3rem;
     }
 
-    .certificates_h2 {
-        margin: 7rem 3rem 3rem 3rem;
-        font-size: 2.5rem;
-    }
-
-    .certificates_en {
-        font-size: 1.85rem;
-        margin: auto auto 1rem 2rem;
-    }
-
-    .certificates_pl {
-        margin: 2rem auto 10rem 2.5rem;
-        max-width: 30ch;
-    }
-
     #projects h1 {
         margin-top: 0rem;
+    }
+
+    #skills ul li {
+        display: inline-block;
+        font-size: 1rem;
+        border-radius: 1rem;
+        margin: 0.2rem;
+        padding: 1.25rem;
     }
     
     #about h2 {
@@ -364,31 +331,20 @@ and (max-width: 767px) {
 
     #about p {
         font-size: 2rem;
-        margin: 1rem auto 5rem 2rem;
+        margin: 2rem 10rem 2rem 2rem;
     }
 
-    .p1, .p2, .p3, .p4 {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .p1, .p2, .p3 {
         font-size: 1.25rem;
-        min-width: 15ch;
-        max-width: 23ch;
-    }
-    
-    .p1, .p2, .p3, .p4 {
-        margin-left: 2.5rem;
-    }
-
-    .p4 {
-        margin-bottom: 3rem;
-    }
-    
-    #about img {
-        width: 206.25px;
-        height: 275.25px;
-    }
-
-    #about .box {
-        width: 225px;
-        height: 200px;
+        min-width: 40ch;
+        max-width: 50ch;
+        margin: 2rem 2rem 2rem 10rem;
     }
 
     footer ul li{
@@ -443,15 +399,6 @@ and (max-width: 1024px) {
         margin-left: 10rem;
         margin-bottom: 3rem;
         font-size: 4rem;    
-    }  
-    
-    .certificates_en {
-        font-size: 1.3rem;
-        margin: auto auto 1rem 5rem;
-    }
-
-    .certificates_pl {
-        margin: auto auto 2rem 7rem
     }
 
     #projects h1 {
@@ -472,15 +419,6 @@ and (max-width: 1024px) {
         font-size: 1.25rem;
         margin-left: 8rem;
         margin-bottom: 5rem;
-    }
-
-    .p4 {
-        margin-bottom: 3rem;
-    }
-
-    #about img {
-        width: 269.9575px;
-        height: 325.25px;
     }
     
     #about .box {
