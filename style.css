@@ -249,8 +249,33 @@ main h1 {
     padding: 1.5rem;
 }
 
+@media only screen 
+and (max-width: 1200px)
+and (min-width: 475px) {
+    #skills div {
+        font-size: 1rem;
+    }
+
+    #skills ul li {
+        font-size: 1.5rem;
+        padding: 1.25rem;
+    }
+}
+
+@media only screen 
+and (max-width: 475px) {
+    #skills div {
+        font-size: 0.5rem;
+    }
+
+    #skills ul li {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
 .wave {
-    margin-top: -7rem;
+    margin-top: -2rem;
     margin-bottom: -5rem;
 }
 
@@ -308,27 +333,73 @@ and (min-width: 475px) {
     }
 }
 
+@media only screen
+and (max-width: 1600px)
+and (min-width: 1200px) {
+    .p1, .p2, .p3 {
+        max-width: 30ch;
+    }
+}
+
+@media only screen
+and (max-width: 1200px)
+and (min-width: 500px) {
+    .p1, .p2, .p3 {
+        max-width: 40ch;
+    }
+}
+
+@media only screen
+and (max-width: 550px) {
+    .p1, .p2, .p3 {
+        max-width: 27ch;
+    }
+}
+
+
 .p3 {
     padding-bottom: 5rem;
 }
 
 .wave2 {
-    margin-top: -0.1rem;
+    margin-top: -5.1rem;
     transform: scaleY(-1);
 }
 
 #projects h1 {
-    margin-top: -12rem;
+    margin-top: 0rem;
     margin-bottom: 7rem;
 }
 
 #projects img {
-  width: 33vw;
-  overflow: hidden;
+    width: 49vw;
+    overflow: hidden;
 }
 
 #projects img:hover {
   top: 0;
+}
+
+@media only screen
+and (max-width: 600px) {
+    #projects img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        width: 98vw;
+    }
+}
+
+@media only screen
+and (max-width: 1200px) and (min-width: 600px) {
+    #projects img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        width: 75vw;
+    }
 }
 
 header {
